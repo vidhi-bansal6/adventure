@@ -1,0 +1,40 @@
+/* mobile device  */
+
+@media (max-width: 850px) {
+  .navbar .nav-links {
+    position: fixed;
+    top: 50px;
+    left: -100%;
+    display: block;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(33, 33, 70);
+   
+  }
+
+  #click:checked ~ .menu-btn i::before {
+    content: "\f00d";
+  }
+  .navbar .nav-links li {
+    padding: 20px 0;
+    font-size: 20px;
+  }
+  .navbar .nav-links li:hover {
+    color: #fc036b;
+  }
+
+  .navbar .menu-btn i {
+    display: block;
+    color: whitesmoke;
+  }
+  #click:checked ~ ul {
+    left: 0;
+  }
+  .contact {
+    display: inline-block;
+    margin-top: 3px;
+    padding: none;
+  }
+ 
+}
