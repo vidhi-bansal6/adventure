@@ -134,3 +134,38 @@ p {
 .events .ctn {
   margin-top: 30px;
 }
+/* explore  */
+
+.explore {
+  width: 100%;
+  height: 100vh;
+  background-image: url(explore-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.explore-content {
+  width: 60%;
+  padding: 30px;
+  color: whitesmoke;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.explore-content h1 {
+  font-size: 7vmin;
+  margin: 50px 50px 10px 50px;
+  text-transform: capitalize;
+}
+.explore-content p {
+  color: #49497e;
+}
+.explore-content .ctn {
+  margin-top: 40px;
+}
+
+.explore-content .line {
+  margin-bottom: 50px;
+}
